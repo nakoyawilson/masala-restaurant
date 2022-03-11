@@ -18,7 +18,7 @@
 
 ### Links
 
-- Live Site URL: [https://nakoyawilson.github.io/masala-restaurant/](https://nakoyawilson.github.io/masala-restaurant/)
+- Live Site URL: [https://masala-restaurant-landing-page.netlify.app/](https://masala-restaurant-landing-page.netlify.app/)
 
 ## My process
 
