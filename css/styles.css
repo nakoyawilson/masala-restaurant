@@ -52,7 +52,7 @@ button {
 .container {
   width: min(83.33%, 120rem);
   margin-inline: auto;
-
+}
 
 .button-link {
   display: block;
