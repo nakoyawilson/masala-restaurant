@@ -409,6 +409,7 @@ button {
   line-height: 8.5rem;
   text-align: center;
 }
+
 .call-to-action .button-link {
   margin: 5.257rem auto 0;
 }
@@ -451,12 +452,11 @@ button {
 
 .attribution a {
   color: var(--white);
-  text-decoration: underline;
   font-weight: 700;
 }
 
 .attribution a:hover {
-  text-decoration: none;
+  color: var(--gold);
 }
 
 /* Media Queries */
@@ -534,5 +534,208 @@ button {
 
   .header .paragraph {
     width: min(100%, 55rem);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* Footer */
+
+  .footer .nav-links {
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Header */
+
+  .header .container {
+    padding: 2.6rem 0 8rem;
+  }
+
+  /* Hero */
+
+  .hero {
+    margin-top: 8rem;
+  }
+
+  .heading {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    width: min(100%, 45rem);
+  }
+
+  .header .paragraph {
+    width: min(100%, 45rem);
+  }
+
+  /* Specials */
+
+  .special-image-wrapper {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .specials-image {
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+
+  /* Call to Action */
+
+  .call-to-action .subheading {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  /* Hero */
+
+  .hero {
+    margin-top: 8rem;
+  }
+
+  .heading {
+    font-size: 3.6em;
+    line-height: 4.8rem;
+    width: min(100%, 35rem);
+  }
+
+  .header .paragraph {
+    width: min(100%, 35rem);
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  /* Call to Action */
+
+  .call-to-action .subheading {
+    font-size: 3.6em;
+    line-height: 4.8rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  /* General Styles */
+
+  .button-link {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 0.02em;
+  }
+
+  /* Main */
+
+  .subheading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-align: center;
+  }
+
+  /* Logo */
+
+  .logo-wrapper {
+    justify-content: center;
+    width: fit-content;
+    gap: 1rem;
+  }
+
+  .logo-icon {
+    width: 5rem;
+  }
+
+  .logo-text {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  /* Navigation */
+  .menu-icon {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  /* Hero */
+
+  .hero {
+    margin-top: 5rem;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    width: min(100%, 23rem);
+  }
+
+  .header .paragraph {
+    width: min(100%, 23rem);
+  }
+
+  /* Our Specials */
+
+  .specials-wrapper {
+    gap: 3rem;
+  }
+
+  .specials-heading {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+
+  .price {
+    font-size: 2.7rem;
+    line-height: 3rem;
+  }
+
+  /* Call to Action */
+
+  .call-to-action .subheading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  /* Contact Us */
+
+  .contact-details {
+    gap: 2.4rem;
+  }
+
+  .contact-heading {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+  }
+
+  .contact-info {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  /* Footer */
+
+  .footer .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .social-icons {
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .contact-details {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    text-align: center;
   }
 }
