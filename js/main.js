@@ -17,7 +17,7 @@ navLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     mobileNav.classList.remove("open");
     document.querySelector("body").classList.remove("lock-scroll");
-    menuIcon.src = "images/close_black_24dp.svg";
+    menuIcon.src = "images/menu_black_24dp.svg";
     e.preventDefault();
   });
 });
