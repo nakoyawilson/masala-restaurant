@@ -244,18 +244,19 @@ button {
 /* Photo Reel */
 
 .photo-reel {
-  margin-top: 12rem;
+  width: min(100%, 144rem);
+  margin: 12rem auto 0;
   background-color: var(--black);
   padding: 4rem 0 15.2rem;
+  position: relative;
 }
 
 .photo-reel-grid {
-  width: min(100%, 144rem);
+  width: 100%;
   margin: 4.8rem auto 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2.885rem;
-  position: relative;
 }
 
 .full-height-left {
@@ -296,6 +297,7 @@ button {
 
 .photo-reel-image {
   width: 100%;
+  height: 100%;
 }
 
 .carousel-button {
@@ -535,6 +537,44 @@ button {
   .header .paragraph {
     width: min(100%, 55rem);
   }
+
+  /* Photo Reel */
+
+  .photo-reel {
+    padding: 4rem 0 8rem;
+  }
+
+  .photo-reel-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .full-height-left {
+    display: none;
+  }
+
+  .full-height-right {
+    display: none;
+  }
+
+  .full-height-left::after,
+  .full-height-right::after {
+    content: none;
+  }
+
+  .full-width {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .photo-reel-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-button {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -630,9 +670,16 @@ button {
     font-size: 1.8rem;
     line-height: 3rem;
     letter-spacing: 0.02em;
+    width: min(90%, 23rem);
+    padding: 0.8rem 0;
+    text-align: center;
   }
 
   /* Main */
+
+  .main {
+    margin-top: 4.8rem;
+  }
 
   .subheading {
     font-size: 2.4rem;
@@ -681,6 +728,14 @@ button {
 
   /* Our Specials */
 
+  .specials.container {
+    margin: 4.8rem auto 0;
+  }
+
+  .specials-wrapper {
+    margin-top: 4.8rem;
+  }
+
   .specials-wrapper {
     gap: 3rem;
   }
@@ -695,7 +750,34 @@ button {
     line-height: 3rem;
   }
 
+  /* Photo Reel */
+
+  .photo-reel {
+    margin: 4.8rem auto 0;
+    padding: 4rem 0 8rem;
+  }
+
+  .photo-reel-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .full-width {
+    display: none;
+  }
+
+  .photo-reel-image {
+    width: 100%;
+    height: 100%;
+  }
+
   /* Call to Action */
+
+  .call-to-action {
+    margin-top: 4.8rem;
+    position: relative;
+    padding: 4rem 0;
+  }
 
   .call-to-action .subheading {
     font-size: 2.4rem;
@@ -703,6 +785,15 @@ button {
   }
 
   /* Contact Us */
+
+  .contact {
+    margin: 4.8rem auto 0;
+  }
+
+  .contact-wrapper {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
 
   .contact-details {
     gap: 2.4rem;
