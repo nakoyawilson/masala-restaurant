@@ -20,7 +20,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="nav-wrapper">
+        <div class="nav-content-wrapper">
           <div class="logo-wrapper">
             <svg
               width="92"
@@ -37,20 +37,15 @@
             </svg>
             <span class="logo-text">Masala</span>
           </div>
-          <button class="navigation-button">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="#FFF"
+          <button class="navigation-button" id="menu-toggle">
+            <img
+              src="images/menu_black_24dp.svg"
               class="menu-icon"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" />
-              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
-            </svg>
+              alt=""
+              id="menu-icon"
+            />
           </button>
-          <nav class="navigation-wrapper">
+          <nav class="navigation-wrapper" id="mobile-nav">
             <ul class="nav-links">
               <li><a href="#" class="nav-link">Our Menu</a></li>
               <li><a href="#" class="nav-link">About Us</a></li>
@@ -270,5 +265,7 @@
         ></small
       >
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
