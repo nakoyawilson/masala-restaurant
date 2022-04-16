@@ -26,6 +26,8 @@
 
 - HTML
 - CSS
+- JavaScript
+- Figma design file
 
 ## Author
 
@@ -46,3 +48,4 @@
 - Photo by [Fallon Michael](https://unsplash.com/@fallonmichaeltx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/chicken-salad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - [Photo by Igor Starkov from Pexels](https://www.pexels.com/photo/two-green-potted-plants-791810/)
 - [Photo by cottonbro from Pexels](https://www.pexels.com/photo/man-in-white-dress-shirt-holding-silver-bowl-4253312/)
+- [Photo by cottonbro from Pexels](https://www.pexels.com/photo/person-pouring-seasoning-on-green-beans-on-bowl-3338497/)
